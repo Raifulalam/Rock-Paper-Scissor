@@ -1,0 +1,68 @@
+ body {
+     background-color: rgb(33, 25, 25);
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+
+
+ }
+
+ .container {
+     background-color: rgb(34, 31, 31);
+     display: inline-block;
+     text-align: center;
+     border: 2px blue solid;
+     border-left: 2px orange solid;
+     border-top: 2px orange solid;
+     box-shadow: 2px 2px 3px orange, -2px -2px 3px blue;
+     padding: 10px;
+     margin-left: 350px;
+     margin-top: 30px;
+
+ }
+
+
+
+
+
+ .title {
+     font-size: 30px;
+     font-weight: bold;
+ }
+
+
+
+ .move-icon {
+     height: 50px;
+     background: transparent;
+ }
+
+
+
+ .move-button {
+     background-color: transparent;
+     border: 3px solid rgb(173, 67, 67);
+     height: 90px;
+     width: 90px;
+     border-radius: 60px;
+     margin: 8px;
+     cursor: pointer;
+ }
+
+ .result {
+     font-size: 25px;
+     font-weight: bold;
+     margin-top: 20px;
+
+ }
+
+ .score {
+     margin-top: 30px;
+ }
+
+ .reset-score-button {
+     background-color: white;
+     border: none;
+     font-size: 15px;
+     padding: 6px 10px;
+     cursor: pointer;
+ }
