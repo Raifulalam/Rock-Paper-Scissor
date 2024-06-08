@@ -35,14 +35,15 @@
  .display-information {
      display: flex;
      flex-direction: column;
+     align-items: center;
 
  }
 
 
  .title {
-     font-size: 30px;
+     font-size: 35px;
      font-weight: bold;
-     margin: 0%;
+     ;
  }
 
 
@@ -81,4 +82,5 @@
      font-size: 15px;
      padding: 6px 10px;
      cursor: pointer;
+     width: 150px;
  }
