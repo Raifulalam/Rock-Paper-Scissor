@@ -5,6 +5,8 @@
  }
 
  .container {
+     display: flex;
+     flex-direction: column;
      background-color: rgb(34, 31, 31);
      text-align: center;
      border: 2px blue solid;
@@ -12,14 +14,29 @@
      border-top: 2px orange solid;
      box-shadow: 2px 2px 3px orange, -2px -2px 3px blue;
      padding: 5px;
-     margin-left: 250px;
-     margin-right: 250px;
-     margin-top: 3px;
 
  }
 
+ @media only screen and(min-width:380px) {
+     .container {
+         display: contents;
+         background-color: rgb(34, 31, 31);
+         text-align: center;
+         border: 2px blue solid;
+         border-left: 2px orange solid;
+         border-top: 2px orange solid;
+         box-shadow: 2px 2px 3px orange, -2px -2px 3px blue;
+         padding: 2px;
 
+     }
 
+ }
+
+ .display-information {
+     display: flex;
+     flex-direction: column;
+
+ }
 
 
  .title {

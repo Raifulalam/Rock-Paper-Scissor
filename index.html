@@ -12,20 +12,27 @@
     <div class="container">
 
         <p class="title">Rock Paper-Scissor</p>
-        <button onclick="
-    playGame('Rock');
-    " class="move-button"><img src="image/rock-emoji.png" class="move-icon " alt></button>
+        <div class="play-button">
+            <button onclick="
+            playGame('Rock');
+            " class="move-button"><img src="image/rock-emoji.png" class="move-icon " alt></button>
 
-        <button onclick="
-    playGame('Paper');
-    " class="move-button"><img src="image/paper-emoji.png" class="move-icon" alt></button>
+            <button onclick="
+            playGame('Paper');
+            " class="move-button"><img src="image/paper-emoji.png" class="move-icon" alt></button>
 
-        <button onclick="
-    playGame('Scissor');
-  " class="move-button"><img src="image/scissor-emoji.png" class="move-icon" alt></button>
-        <p class="js-result" class="result"></p>
-        <p class="js-moves"></p>
-        <p class="js-score score"></p>
+            <button onclick="
+            playGame('Scissor');
+          " class="move-button"><img src="image/scissor-emoji.png" class="move-icon" alt></button>
+
+        </div>
+        <div class="display-information">
+            <p class="js-result" class="result"></p>
+            <p class="js-moves"></p>
+            <p class="js-score score"></p>
+
+        </div>
+
 
 
         <button onclick="
